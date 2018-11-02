@@ -1,0 +1,96 @@
+#cookieContainer {
+	height:0px;
+}
+
+#cookieContainer.cookieQuestion {
+	font-family: Arial,Helvetica,Sans-Serif;
+    font-size: 12px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: -40px;	
+	z-index:1000;	
+}
+
+#cookieContainer.cookieQuestion .cookieMessage{
+	background: #FFFFFF;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F2F2F2', endColorstr='#FFFFFF');	
+	background: -webkit-gradient(linear, left top, left bottom, from(#F2F2F2), to(#FFFFFF)); 
+	background: -moz-linear-gradient(top,  #F2F2F2,  #FFFFFF); 
+	
+   	-moz-box-shadow: 0 0 5px #000;
+	-webkit-box-shadow: 0 0 5px #000;
+	 box-shadow: 0 0 5px #000;
+	 
+	border-bottom: 1px solid #f2f2f2;
+    padding: 10px 20px 10px 35px;
+    position: relative;
+    z-index: 900000;
+}
+
+#cookieContainer.cookieQuestion .cookieInfo {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+	
+    background: #FFFFFF;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f2f2', endColorstr='#FFFFFF');	
+	background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#FFFFFF)); 
+	background: -moz-linear-gradient(top,  #f2f2f2,  #FFFFFF); 
+	
+    border-color: -moz-use-text-color #f2f2f2 #f2f2f2;
+   	-moz-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+	
+  	-moz-box-shadow: 0 0 5px #000000;
+	-webkit-box-shadow: 0 0 5px #000000;
+	 box-shadow: 0 0 5px #000000;
+	 
+    margin: 0 10px 10px;
+    padding: 15px 25px;
+    position: relative;
+    z-index: 899999;
+}
+
+#cookieContainer.cookieQuestion .cookieButtons {
+    float: right;
+}
+
+#cookieContainer a{
+	 color: black;
+	 text-decoration:underline;
+}
+
+#cookieContainer.cookieQuestion .cookieButtons a {
+    background-color:#FFFFFF;
+    border: 1px solid #CCC;
+	-moz-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    color: #444444;
+    margin-left: 10px;
+    padding: 4px 10px;
+    text-decoration: none;
+    z-index: 900001;	
+}
+
+
+
+#cookieContainer.cookieQuestion .cookieButtons a:focus {
+    border-color: #FFCC33;
+}
+
+
+
+
+
+
+
+
+
+

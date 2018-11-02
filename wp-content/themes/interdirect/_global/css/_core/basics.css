@@ -1,0 +1,137 @@
+
+/* =========  general classes =========  */
+.hidden    { display:none; }
+.showBlock {display:block;}
+.showInline {display:inline;}
+.showInlineBlock {display:inline-block;}
+
+.noPad {padding:0!important;}
+.noPadLeft {padding-left:0!important;}
+.noPadRight {padding-right:0!important;}
+
+.clearBoth { clear:both; }
+
+/*form, input, img { margin: 0px; padding: 0px; } DONT THINK NEEDED */
+/*textarea { font-family:Arial, Helvetica, sans-serif; } DONT THINK NEEDED */
+
+html { min-height: 101%; } /* makes browser always have sidebar scroller area - so doesnt jump */
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+	font-size: 62.5%;
+	height: 100%;
+	width: 100%;
+	z-index: 0;
+	background-color:#ffffff;
+}
+body.cke_show_borders { /* adds side spacing so easier to edit */
+	margin: 0px 5px 0px 5px;
+	padding: 0px 2px 0px 2px;
+	width:auto;
+}
+html.CSS1Compat {
+	_overflow-y: scroll; /* important for ckeditor display - not sure what, need to check */
+}
+
+.trans {
+	transition:all ease 0.3s;
+	-webkit-transition:all ease 0.3s;
+	-moz-transition:all ease 0.3s;
+	-ms-transition:all ease 0.3s;
+	-o-transition:all ease 0.3s;
+}
+
+.transSlow {
+	transition:all ease 0.6s;
+	-webkit-transition:all ease 0.6s;
+	-moz-transition:all ease 0.6s;
+	-ms-transition:all ease 0.6s;
+	-o-transition:all ease 0.6s;
+}
+
+/* overall links */
+
+a { color:#6b7a90; text-decoration:none; outline: none; }
+a:visited { color: #6b7a90; text-decoration: underline; outline: none; }
+a:hover { color: #000; text-decoration: underline; outline: none; }
+a:active { color: #6b7a90; text-decoration: underline; outline: none; }
+
+/* ========= usercontent styles  ========= */
+/* (frontend and in admin ckeditor)*/
+
+div.userContent a,
+body.cke_show_borders a { font-weight:bold; }
+
+div.userContent a {color:#DF312F;}
+
+/* scales images correctly */
+div.userContent img { max-width:100%; }
+
+/* possible image rendering improvement in IE for scalable images - need to test*/
+img { -ms-interpolation-mode: bicubic !important; } 
+	
+/*h1, h2, h3, h4, h5, h6 {
+	font-family: Ubuntu, Arial, Helvetica, sans-serif;
+	color:#4b4a4a;
+	font-weight:normal;
+	margin-bottom: 0.5rem;
+    margin-top: 0.2rem;
+	padding:0px;
+}*/
+/* Max font size */
+/*@media screen and (min-width: 75em) {
+  html {font-size: 1.5em;}
+}
+*/
+/* desktop size */
+/*@media screen and (min-width: 64.063em) {
+  	html {font-size: 2vw;}
+
+	h1 { font-size: 4.4em; }
+	h2 { font-size: 3.8em; }
+	h3 { font-size: 3.4em; }
+	h4 { font-size: 2.8em; }
+	h5 { font-size: 2.4em; }
+	h6 { font-size: 2.2em; }
+}*/
+/* touchscreen size */
+/*@media only screen and (max-width:64.063em) {
+	h1 { font-size: 4.4em; }
+	h2 { font-size: 3.8em; }
+	h3 { font-size: 3.4em; }
+	h4 { font-size: 2.8em; }
+	h5 { font-size: 2.4em; }
+	h6 { font-size: 2.2em; }
+}*/
+/* mobile size */
+/*@media only screen and (max-width:40.063em) {
+	h1 { font-size: 3.4em; marign:0;}
+	h2 { font-size: 2.8em; }
+	h3 { font-size: 2.4em; }
+	h4 { font-size: 2.2em; }
+	h5 { font-size: 2.0em; }
+	h6 { font-size: 1.8em; }
+}
+
+p, pre, p.small {
+	color: #666666;
+	font-size:1.3em;
+	line-height:1.6em;
+}
+
+p span { color:#666666; }
+*/
+
+
+/* ========= end ========= */
+
+
+
+
+
+
+
+
+
+
